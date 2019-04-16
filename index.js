@@ -11,6 +11,9 @@ return distanceFromHqInBlocks(blockDistance) * 264
 }
 
 function distanceTravelledInFeet(beginning, ending){
-  result = (ending - beginning) * 264
-  return result
+  if (beginning < ending){
+    return (ending - beginning) * 264;
+  } else {
+    return (beginning - ending) * 264;
+  }
 }
