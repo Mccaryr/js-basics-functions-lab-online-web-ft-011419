@@ -17,3 +17,9 @@ function distanceTravelledInFeet(beginning, ending){
     return (beginning - ending) * 264;
   }
 }
+
+function claculatesFarePrice(start, destination){
+  if (distanceTravelledInFeet < 400){
+    return "Free ride"
+  }
+}
