@@ -6,7 +6,6 @@ function distanceFromHqInBlocks(blockDistance){
   }
 }
 
-function distanceFromHqInFeet(feetDistance){
-result = distanceFromHqInBlocks * (feetDistance)
-return result
+function distanceFromHqInFeet(blockDistance){
+distanceFromHqInBlocks(blockDistance) * 264
 }
