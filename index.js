@@ -8,5 +8,5 @@ function distanceFromHqInBlocks(blockDistance){
 
 function distanceFromHqInFeet(feetDistance){
 result = distanceFromHqInBlocks * (feetDistance)
-return result  
+return result
 }
