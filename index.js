@@ -18,7 +18,7 @@ function distanceTravelledInFeet(beginning, ending){
   }
 }
 
-function calculatesFarePrice(start, destination){
+function calculatesFarePrice(beginning, ending){
   if (distanceTravelledInFeet < 400){
     return "Free ride"
   }
